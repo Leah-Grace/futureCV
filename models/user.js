@@ -23,9 +23,9 @@ const userSchema = new Schema({
   },
   github: {
     type: String
-    //is this required??
+    //is this required?? ---> No
   }
-  //Employment Status?
+  //Include Employment Status?
 });
 
-module.exports = Users = mongoose.model("users", UserSchema);
+module.exports = Users = mongoose.model("users", userSchema);
