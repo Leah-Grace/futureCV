@@ -27,3 +27,5 @@ const userSchema = new Schema({
   }
   //Employment Status?
 });
+
+module.exports = Users = mongoose.model("users", UserSchema);
